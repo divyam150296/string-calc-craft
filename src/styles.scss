@@ -44,7 +44,7 @@
 .input-field {
     width: 100%;
     min-width: 228px;
-    height: 50px;
+    height: auto;
     margin-top: 10px;
 }
 
@@ -57,9 +57,15 @@
     font-weight: 600;
 
     &:hover {
-        border: 3px solid #818194;
-        background: #d06c6c;
-        color: #f3ead8;
+        border: 3px solid #010165;
+        background: #b14d4d;
+        color: rgb(255, 241, 216);
+    }
+
+    &:active {
+        border: 3px solid #000072;
+        background: #ce5959;
+        color: wheat;
     }
 }
 
